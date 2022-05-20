@@ -13,6 +13,10 @@
 		2E27034A2802D1CA001F36FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2703482802D1CA001F36FA /* Main.storyboard */; };
 		2E27034C2802D1CC001F36FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E27034B2802D1CC001F36FA /* Assets.xcassets */; };
 		2E27034F2802D1CC001F36FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E27034D2802D1CC001F36FA /* LaunchScreen.storyboard */; };
+		2E27035B2802D8AD001F36FA /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2703572802D8AD001F36FA /* alarm_sound.mp3 */; };
+		2E27035C2802D8AD001F36FA /* medium_egg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2703582802D8AD001F36FA /* medium_egg.png */; };
+		2E27035D2802D8AD001F36FA /* soft_egg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2703592802D8AD001F36FA /* soft_egg.png */; };
+		2E27035E2802D8AD001F36FA /* hard_egg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E27035A2802D8AD001F36FA /* hard_egg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2E27034B2802D1CC001F36FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E27034E2802D1CC001F36FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E2703502802D1CC001F36FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2703572802D8AD001F36FA /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
+		2E2703582802D8AD001F36FA /* medium_egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medium_egg.png; sourceTree = "<group>"; };
+		2E2703592802D8AD001F36FA /* soft_egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soft_egg.png; sourceTree = "<group>"; };
+		2E27035A2802D8AD001F36FA /* hard_egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hard_egg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +71,20 @@
 				2E27034B2802D1CC001F36FA /* Assets.xcassets */,
 				2E27034D2802D1CC001F36FA /* LaunchScreen.storyboard */,
 				2E2703502802D1CC001F36FA /* Info.plist */,
+				2E2703562802D8AD001F36FA /* Asset */,
 			);
 			path = Practice;
+			sourceTree = "<group>";
+		};
+		2E2703562802D8AD001F36FA /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				2E2703572802D8AD001F36FA /* alarm_sound.mp3 */,
+				2E2703582802D8AD001F36FA /* medium_egg.png */,
+				2E2703592802D8AD001F36FA /* soft_egg.png */,
+				2E27035A2802D8AD001F36FA /* hard_egg.png */,
+			);
+			path = Asset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +147,11 @@
 			files = (
 				2E27034F2802D1CC001F36FA /* LaunchScreen.storyboard in Resources */,
 				2E27034C2802D1CC001F36FA /* Assets.xcassets in Resources */,
+				2E27035E2802D8AD001F36FA /* hard_egg.png in Resources */,
+				2E27035C2802D8AD001F36FA /* medium_egg.png in Resources */,
+				2E27035B2802D8AD001F36FA /* alarm_sound.mp3 in Resources */,
 				2E27034A2802D1CA001F36FA /* Main.storyboard in Resources */,
+				2E27035D2802D8AD001F36FA /* soft_egg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +321,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +350,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
